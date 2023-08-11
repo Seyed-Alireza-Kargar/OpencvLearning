@@ -48,6 +48,7 @@ cv2.imshow("Dialation Image", imgDialation)
 
 
 # Eroded
+
 imgEroded = cv2.erode(imgDialation, kernel, iterations=1)
 cv2.imshow("Eroded Image", imgEroded)
 
