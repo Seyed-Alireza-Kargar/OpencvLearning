@@ -31,7 +31,6 @@ imgCanny = cv2.Canny(img, 150, 200)
 cv2.imshow("Canny Image", imgCanny)
 
 
-
 # ---------------------------------------------
 
 
